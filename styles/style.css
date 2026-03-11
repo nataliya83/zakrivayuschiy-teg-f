@@ -86,15 +86,15 @@
   filter: opacity(80%);
 }
 
-.filter-invert { 
+.filter-invert {
   filter: invert(20%);
 }
 
-.filter-bright { 
+.filter-bright {
   filter: brightness(120%);
 
 }
-.filter-contr { 
+.filter-contr {
   filter: contrast(150%) ;
 }
 
@@ -102,15 +102,15 @@
   filter: grayscale(30%);
 }
 
-.filter-hue-rotate { 
+.filter-hue-rotate {
   filter: hue-rotate(80deg) ;
 }
 
-.filter-saturate { 
+.filter-saturate {
   filter: saturate(160%);
 }
 
-.filter_mixed {
+.filter-mixed {
   filter: saturate(110%) brightness(120%);
 }
 
@@ -216,7 +216,7 @@
 }
 
 .like-icon.is-liked .heart {
-  animation: magnification 0.3s 0.1s ease-in; 
+  animation: magnification 0.3s 0.1s ease-in;
 }
 
 .like-icon.is-liked .sparks {
@@ -266,7 +266,7 @@
   transform-origin: left;
   transform: scaleX(0);
   transition: transform 0.5s ease-in-out;
-  position: absolute; 
+  position: absolute;
   inset: 0;
 }
 
