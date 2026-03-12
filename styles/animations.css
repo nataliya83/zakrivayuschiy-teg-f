@@ -1,10 +1,12 @@
 @keyframes magnification {
     from {
-        scale: 1;
+        transform: scale(1);
+        transform-origin: center;
     }
 
     to {
-        scale: 1.25;
+        transform: scale(1.25);
+        transform-origin: center;
     }
     
 }

@@ -7,7 +7,6 @@
     --accent-color: #FF0000;
     --bgr-color: #fff;
     --block-width: clamp(375px, 260.56px + 30.52vw, 700px);
-    --label-stroke: rgba(0, 0, 0, 0.2);
-    --outline: 2px solid black;
-
+    --label-stroke: #fff;
+    --outline: 2px solid #000;
 }
